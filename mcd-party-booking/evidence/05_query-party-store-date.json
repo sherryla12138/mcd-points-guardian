@@ -1,0 +1,50 @@
+{
+  "jsonrpc": "2.0",
+  "id": 99,
+  "result": {
+    "content": [
+      {
+        "text": "# API Response Information\n\nBelow is the response from an API call. To help you understand the data, I've provided:\n\n1. A detailed description of all fields in the response structure\n2. The complete API response\n\n## Response Structure\n\n> Content-Type: application/json\n\n- **data**: 可预约日期列表 (Type: array)\n  - **data[].date**: 日期 (Type: string)\n  - **data[].storeCode**: 门店编码 (Type: string)\n  - **data[].spuId**: spuId (Type: number)\n- **message**: No comments found. (Type: string)\n- **traceId**: No comments found. (Type: string)\n\n## Original Response\n\n{\"success\":true,\"code\":200,\"message\":\"请求成功\",\"datetime\":\"2026-10-12 11:23:29\",\"traceId\":\"c512a04c51646be007453b42520bd111\",\"data\":[{\"date\":\"2026-10-15\",\"storeCode\":\"1450713\"},{\"date\":\"2026-10-16\",\"storeCode\":\"1450713\"},{\"date\":\"2026-10-17\",\"storeCode\":\"1450713\"},{\"date\":\"2026-10-18\",\"storeCode\":\"1450713\"},{\"date\":\"2026-10-19\",\"storeCode\":\"1450713\"},{\"date\":\"2026-10-20\",\"storeCode\":\"1450713\"},{\"date\":\"2026-10-21\",\"storeCode\":\"1450713\"}]}",
+        "type": "text"
+      }
+    ],
+    "isError": false,
+    "structuredContent": {
+      "success": true,
+      "code": 200,
+      "message": "请求成功",
+      "datetime": "2026-10-12 11:23:29",
+      "traceId": "c512a04c51646be007453b42520bd111",
+      "data": [
+        {
+          "date": "2026-10-15",
+          "storeCode": "1450713"
+        },
+        {
+          "date": "2026-10-16",
+          "storeCode": "1450713"
+        },
+        {
+          "date": "2026-10-17",
+          "storeCode": "1450713"
+        },
+        {
+          "date": "2026-10-18",
+          "storeCode": "1450713"
+        },
+        {
+          "date": "2026-10-19",
+          "storeCode": "1450713"
+        },
+        {
+          "date": "2026-10-20",
+          "storeCode": "1450713"
+        },
+        {
+          "date": "2026-10-21",
+          "storeCode": "1450713"
+        }
+      ]
+    }
+  }
+}
