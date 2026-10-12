@@ -1,3 +1,19 @@
+# 麦当劳 M-Code 参赛仓库 · 三个 WorkBuddy Skill
+
+> 本仓库提交 **3 个** 基于麦当劳官方 MCP（`https://mcp.mcd.cn`）的 WorkBuddy Skill，参加「麦当劳程序员创意开发大赛（M-Code）」。
+
+| # | Skill | 目录 | 一句话定位 | 5 必备文件 |
+|---|---|---|---|---|
+| 1 | 积分守门员 mcd-points-guardian | `/`（根目录） | 把积分过期倒计时与兑换性价比算清楚（只读） | 已含 SKILL/README/MCP_INTEGRATION/workbuddy/CONTEST_DECLARATION |
+| 2 | 派对订场助手 mcd-party-booking | [`/mcd-party-booking`](./mcd-party-booking) | 查可订生日派对门店/时段/套餐并估算成团 | 同上 |
+| 3 | 团餐预算官 mcd-group-budget | [`/mcd-group-budget`](./mcd-group-budget) | 按人数点单、用券、算总价，避免团餐超预算 | 同上 |
+
+报名提交：官方仓 `M-China/mcd-developer-innovation-challenge` Issue #489。
+
+---
+
+## Skill 1 · 积分守门员（根目录，原文）
+
 # 麦当劳积分守门员 · mcd-points-guardian
 
 > 把麦当劳积分的**过期倒计时**和**兑换性价比**算清楚。纯只读——不代下单、不代抽奖。
